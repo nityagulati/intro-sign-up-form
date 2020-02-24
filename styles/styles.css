@@ -1,0 +1,267 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  background-image: url("../images/bg-intro-mobile.png");
+  background-color: #ff7a7a;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("../images/bg-intro-desktop.png");
+  }
+}
+
+footer {
+  margin: 5%;
+}
+
+@media screen and (min-width: 1200px) {
+  footer {
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  padding: 10%;
+  padding-bottom: 5%;
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .site-form {
+    margin: 3%;
+    margin-bottom: 0;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .site-info {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    margin: 5%;
+    margin-bottom: 0;
+    margin-right: 2%;
+    text-align: left;
+  }
+}
+
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.button {
+  background-color: #38cc8c;
+  border: none;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 8px 0 #2ba671;
+          box-shadow: 0 4px 8px 0 #2ba671;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 5% 0;
+  padding: 4%;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #61d6a3;
+}
+
+.button:focus {
+  outline: 2px dashed #6055a5;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button {
+    font-size: 1rem;
+  }
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 #8c8c8c;
+          box-shadow: 0 4px 8px 0 #8c8c8c;
+  color: #b9b6d3;
+  margin-top: 5%;
+  padding: 3% 5%;
+}
+
+.form > input {
+  border: 1px solid #b9b6d3;
+  border-radius: 7px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 2%;
+  padding: 3% 5%;
+}
+
+.form > input:focus {
+  outline: none;
+  border-color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .form > input {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form > input {
+    font-size: 0.75rem;
+  }
+}
+
+.form .terms {
+  color: #b9b6d3;
+  font-size: 0.75rem;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .form .terms {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form .terms {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .intro {
+    font-size: 1rem;
+  }
+}
+
+.attribution__link {
+  color: #6055a5;
+}
+
+.terms-link {
+  color: #ff7a7a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.try-tag {
+  background-color: #6055a5;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 8px 0 #3e3c49;
+          box-shadow: 0 4px 8px 0 #3e3c49;
+  font-size: 1rem;
+  margin-top: 20%;
+  padding: 5%;
+}
+
+.try-tag--light {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .try-tag {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .try-tag {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+}
+
+.error {
+  font-size: 0.55rem;
+  font-weight: 600;
+  color: #ff7a7a;
+  text-align: right;
+  margin-right: 2%;
+}
+
+@media screen and (min-width: 768px) {
+  .error {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .error {
+    font-size: 0.55rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

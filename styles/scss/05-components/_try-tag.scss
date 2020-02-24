@@ -1,0 +1,21 @@
+.try-tag {
+  background-color: $tag-bg;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 $tag-shadow;
+  font-size: $font-size-normal;
+  margin-top: 20%;
+  padding: 5%;
+
+  &--light {
+    font-weight: $font-weight-light;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: $font-size-medium;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-normal;
+    margin-top: 0;
+  }
+}

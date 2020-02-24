@@ -1,0 +1,25 @@
+// colors
+$black: hsl(0, 0%, 0%);
+$blue: hsl(248, 32%, 49%);
+$dark-blue: hsl(249, 10%, 26%);
+$grayish-blue: hsl(246, 25%, 77%);
+$green: hsl(154, 59%, 51%);
+$red: hsl(0, 100%, 74%);
+$white: hsl(100, 100%, 100%);
+
+// color variables
+$accent-color: $blue;
+$body-bg: $red;
+$body-text: $white;
+$btn-color: $green;
+$btn-hover: lighten($green, 10);
+$btn-outline: $blue;
+$btn-shadow: darken($green, 10);
+$btn-text: $white;
+$form-bg: $white;
+$form-shadow: lighten($black, 55);
+$form-text: $grayish-blue;
+$input-outline: $black;
+$tag-bg: $accent-color;
+$tag-shadow: $dark-blue;
+$terms-link: $red;

@@ -1,0 +1,13 @@
+body {
+  @include reset();
+  background-image: url("../images/bg-intro-mobile.png");
+  background-color: $body-bg;
+  color: $body-text;
+  font-family: $font-stack;
+  font-size: $font-size-base;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    background-image: url("../images/bg-intro-desktop.png");
+  }
+}

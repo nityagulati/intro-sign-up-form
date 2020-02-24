@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Nitya Gulati">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Intro Component with Sign Up Form</title>
+</head>
+
+<body>
+  <main>
+    <section class="site-info">
+      <h1 class="title">Learn to code by watching others</h1>
+      <p class="intro">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </section>
+    <section class="site-form">
+      <h2 class="try-tag">Try it free 7 days <span class="try-tag--light">then $20/mo. thereafter</span></h2>
+      <form id="form" class="form" novalidate>
+        <input class="fname" id="fname" type="text" name="First Name" value="" placeholder="First Name"
+          aria-label="first name" required>
+        <div id="fnameErr" class="error" aria-live="polite">.</div>
+        <input class="lname" id="lname" type="text" name="Last Name" value="" placeholder="Last Name"
+          aria-label="last name" required>
+        <div id="lnameErr" class="error" aria-live="polite">.</div>
+        <input class="email" id="email" type="email" name="Email" value="" placeholder="Email" aria-label="email"
+          required>
+        <div id="emailErr" class="error" aria-live="polite">.</div>
+        <input class="password" id="pw" type="password" name="Password" minlength="6" value="" placeholder="Password"
+          aria-label="password" required>
+        <div id="pwErr" class="error" aria-live="polite">.</div>
+        <button class="button" id="btn" type="submit" name="submit" aria-label="submit">Claim your free trial</button>
+        <p class="terms">By clicking the button, you are agreeing to our <a class="terms-link" href="#">Terms and
+            Services</a>.</p>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a>.
+      Coded by <a class="attribution__link" href="https://github.com/nityagulati" target="_blank">Nitya Gulati</a>.
+    </p>
+  </footer>
+  <script src="scripts/validateForm.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+@mixin bg-settings() {
+  background-image: url("images/bg-intro-mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $bg-color;
+
+  @media screen and (min-width: 1220px) {
+    background-image: url("images/bg-intro-desktop.png");
+  }
+}

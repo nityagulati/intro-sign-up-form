@@ -1,0 +1,15 @@
+.error {
+  font-size: $font-size-xsmall;
+  font-weight: $font-weight-bold;
+  color: $red;
+  text-align: right;
+  margin-right: 2%;
+
+  @media screen and (min-width: 768px) {
+    font-size: $font-size-small;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-xsmall;
+  }
+}
